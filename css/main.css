@@ -24,9 +24,9 @@ body {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	font-style: normal;
-	color: aquamarine;
+	
 }
 
 a:hover {
@@ -40,7 +40,7 @@ p {
 }
 
 t {
-	font-size: 18px
+	font-size: 28px
 }
 
 a {

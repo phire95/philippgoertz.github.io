@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/encyclopedia.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/modal.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+
+        
+
+<div class="wrapper">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="photo"> <img src="./content/Achim-Ferrari-01.png" alt="HTML5 Icon" > </div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class=""> <img src="./content/Stadt-Aachen-25-Jahre-Baugeschehen-1970-1.png" alt="HTML5 Icon" ></div>
+    <div class="figure"> <figure>
+        <img src="./content/Achim-Ferrari-01.png" alt="Trulli" >
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+      </figure> </div>
+    <div class="box" class="module">
+	
+        <img id="mod-model-front" src="./content/Achim-Ferrari-01.png" class="img-thumbnail" alt="Ein Blick in die damals noch lebhaft besuchte Unterführung" style="width:235px"></div>
+    <div class="box">9</div>
+    <div class="box">10</div>
+    <div class="box">11</div>
+    <div class="box">12</div>
+    <div class="box">13</div>
+  </div>
+  
+  <img src="./content/Achim-Ferrari-01.png" alt="HTML5 Icon" style=>
+  <!-- Module -->
+
+<div class="module">
+	
+	<img id="mod-model-front" src="./content/Achim-Ferrari-01.png" class="img-thumbnail" alt="Removing every second wall converts two single apartments into one classroom, model, 1:33" style="width:235px">
+	
+	<img id="mod-model-gedreht" src="content/Module_Model_DSC0813.png" class="img-thumbnail" alt="The classrooms are accessed over a new staircase and through the former private gardens, model, 1:200" style="width:200px">
+	
+	<img id="mod-plan" src="content/Module_Plan.png" class="img-thumbnail" alt="Floorplan. the domestic structure is overlayed with new purpose" style="width:285px">
+	
+	<img id="mod-plan-overview" src="content/Module_Plan_Overview.png" class="img-thumbnail" alt="The Letzi school by Ernst Gisel was extended several times around the central compound" style="width:243px">
+	
+	<img id="mod-render" src="content/MODULE_RENDER_SCHULE.png" class="img-thumbnail" alt="A blackboard in the previous bedroom, a wall removed. Usage shifted from night to day" style="width:236px">
+	
+	<img id="mod-schema" src="content/Module_Schema_Vergleich.png" class="img-thumbnail" alt="Comparison of the Wydäckerring and a Züri Modular school pavillon" style="width:186px">
+	
+	<img id="mod-schnitt" src="content/Module_Schnitt.png" class="img-thumbnail" alt="Section of the school extension" style="width:430px">
+	
+	<img id="mod-foto-pavilion" src="content/IMG_5011.png" class="img-thumbnail" alt="" style="width:190px">
+	
+	</div>
+
+  <!-- The Modal -->
+	
+<div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">llllllll</span>
+  
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+  
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div> 
+      
+  <!-- script -->
+      
+  <script>// Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the images and bind an onclick event on each to insert it inside the modal
+  // use its "alt" text as a caption
+  var images = document.querySelectorAll(".img-thumbnail");
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  for(let i = 0; i < images.length; i++){
+    images[i].onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  } </script>
+    </body>
+</html>

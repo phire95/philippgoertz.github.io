@@ -26,6 +26,7 @@ body {
 a {
 	text-decoration: underline;
 	font-style: normal;
+	color: blue;
 	
 }
 
@@ -35,12 +36,12 @@ a:hover {
 }
 
 p {
-	font-size: 80px;
+	font-size: 5vw;
 	font-family: sans-serif;
 }
 
 t {
-	font-size: 28px
+	font-size: 1.8vw
 }
 
 a {

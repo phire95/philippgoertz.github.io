@@ -15,7 +15,7 @@ img {
 body {
 	background-color: white;
 	color: black;
-	margin: 90px;
+	margin: 3em;
 }
 
 .mail {
@@ -26,22 +26,41 @@ body {
 a {
 	text-decoration: underline;
 	font-style: normal;
-	color: blue;
+	color: black;
+
 	
 }
 
-
-
+a:hover{color: red;
+}
 
 p {
-	font-size: 5vw;
+	font-size: 4.5vw;
 	font-family: sans-serif;
 }
 
-t {
-	font-size: 1.8vw
+p2 {font-size: clamp (1rem, 3vw, 1.4rem);
 }
 
+t {
+	font-size: 1.2vw;
+	font-family: serif;
+	font-size: 1.3em;
+	line-height: 1.3;
+	letter-spacing: 0.05em
+}
+
+t3 {color: black;
+	font-size: 1.2vw;
+	font-family: serif;
+	font-weight: bold;
+}
+
+t2	{color: red;
+	font-size: 1.2vw;
+	font-family: serif;
+	font-weight: bold;
+}
 a {
 	font-weight: 400;
 }

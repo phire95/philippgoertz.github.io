@@ -1,4 +1,20 @@
+.leftside, .rightside {
 
+	height: fit-content;
+	width: 50%;
+	min-width: 400px;
+
+
+}
+
+.leftside {
+background: red;
+}
+
+.rightside 
+{
+	background: blue;
+	}
 .wrapper {
     display: grid; /* establish a grid container */
     grid-template-columns: repeat(2, 1fr); /* 20 columns */

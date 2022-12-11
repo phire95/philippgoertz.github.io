@@ -148,6 +148,10 @@ t {
 	font-family: sans-serif;
 	line-height: 1.2;
 }
+p3 {
+	font-size:clamp(28px, 3vw, 100px);
+	font-family: sans-serif;
+}
 
 t3 {color: black;
 	font-size:clamp(20px, 1.2vw, 100px);

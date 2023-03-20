@@ -45,6 +45,9 @@ t {
 	font-size:clamp(20px, 1.2vw, 100px);
 	font-family: sans-serif;
 	line-height: 1.2;
+	max-width: 35em;
+	display: block;
+
 }
 
 t3 {color: black;

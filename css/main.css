@@ -22,9 +22,16 @@ body {
 }
 
 a {
-	text-decoration: underline;
-	font-style: normal;
+	text-decoration: underline 2px;
+	
+	font-family:Times,"Times New Roman",serif;
+text-rendering: optimizeLegibility;
+font-feature-settings: "liga" 1, "kern";
+	font-family: serif;
+	font-style: oblique;
+	font-weight: bold;
 	color: black;
+
 
 	
 }

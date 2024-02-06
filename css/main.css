@@ -54,7 +54,6 @@ p {
 p3 {
 	font-size:clamp(20px, 3vw, 60px);
 	font-family: sans-serif;
-	padding-top: 4rem;
 	font-weight: 500;
 	color:black;
 	
